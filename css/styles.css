@@ -1,0 +1,143 @@
+body{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,label{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #00B0BC;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Headings */
+
+.big-headings{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+
+.btn {
+  background: #00526b;
+  background-image: -webkit-linear-gradient(top, #00526b, #00dfeb);
+  background-image: -moz-linear-gradient(top, #00526b, #00dfeb);
+  background-image: -ms-linear-gradient(top, #00526b, #00dfeb);
+  background-image: -o-linear-gradient(top, #00526b, #00dfeb);
+  background-image: linear-gradient(to bottom, #00526b, #00dfeb);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00dfeb;
+  background-image: -webkit-linear-gradient(top, #00dfeb, #00dfeb);
+  background-image: -moz-linear-gradient(top, #00dfeb, #00dfeb);
+  background-image: -ms-linear-gradient(top, #00dfeb, #00dfeb);
+  background-image: -o-linear-gradient(top, #00dfeb, #00dfeb);
+  background-image: linear-gradient(to bottom, #00dfeb, #00dfeb);
+  text-decoration: none;
+}
+
+/* Title Image */
+
+.title-image{
+  height:150%;
+  width:100%;
+  box-shadow: -10px -10px 1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right:0;
+
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 1% 12% 10%;
+  text-align: left;
+}
+
+/* Effects Section */
+
+.color-wheel{
+  height: 40%;
+  width: 40%;
+}
+
+canvas{
+  height:300px;
+  border:1px solid black;
+  border-style: dashed;
+  margin:30px auto;
+}
+
+.rgb-values{
+  display: flex;
+  justify-content:space-around;
+}
+
+.merge-buttons{
+  margin-top:50px;
+}
+
+/* Footer Section */
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0); /*To abslute Rotation*/
+  }
+
+}
